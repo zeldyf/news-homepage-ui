@@ -4,6 +4,19 @@
   font-family: "Inter", sans-serif;
 }
 
+.attribution {
+  font-weight: 200;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.attribution a{
+  text-decoration: none;
+  color:  hsl(240, 100%, 5%);
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

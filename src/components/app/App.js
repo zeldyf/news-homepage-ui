@@ -15,6 +15,17 @@ function App() {
           <Stories />
         </section>
       </div>
+      <div class="attribution">
+        Challenge by{" "}
+        <a href="https://www.frontendmentor.io?ref=challenge" ß>
+          Frontend Mentor
+        </a>
+        . Coded by{" "}
+        <a href="https://github.com/zeldyf/news-homepage-ui/tree/main">
+          Zeldy Friedman
+        </a>
+        .
+      </div>
     </div>
   );
 }
