@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+  margin: 5px 3%;
+  font-family: "Inter", sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 3%;
+  row-gap: 50px;
+}
+
+.flex-container > * {
+  flex: 1 100%;
+}
+
+@media all and (min-width: 800px) {
+  .App {
+    margin: 5em 10%;
+  }
+  .lead-story-container {
+    flex: 17 0px;
+    order: 1;
+  }
+  .sidebar {
+    flex: 7;
+    order: 2;
+    padding: 20px 20px 0 20px;
+  }
+
+  .lead-story-title-container {
+    display: flex;
+    text-align: left;
+    flex: 1;
+    margin-bottom: 30px;
+  }
+  .lead-story-subtitle-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+
+@media all and (min-with: 1300px) {
+  .App {
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+}
