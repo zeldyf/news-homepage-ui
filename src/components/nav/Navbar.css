@@ -15,7 +15,6 @@
   display: none;
 }
 
-
 .nav-elements ul {
   display: flex;
   justify-content: space-between;
@@ -55,13 +54,14 @@
 @media (max-width: 800px) {
   .overlay {
     position: fixed;
-    width: 100%;
+    translate: 0;
     height: 100%;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.35);
+    transition: all 0.3s ease-in;
   }
 
   .menu-icon {
@@ -73,16 +73,17 @@
   .nav-elements {
     position: fixed;
     right: 0;
-    top:0px;
-    width: 0px;
+    top: 0px;
+    width: 250px;
     height: 100%;
-    transition: all 0.3s ease-in;
     background-color: white;
     overflow: hidden;
+    transform: translateX(250px);
+    transition: all 0.3s ease-in;
   }
 
   .nav-elements.active {
-    width: 250px;
+    transform: translateX(0);
   }
 
   .nav-elements ul {

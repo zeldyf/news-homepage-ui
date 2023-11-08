@@ -8,7 +8,7 @@
   width: 100%;
 }
 
-.desktop-image{
+.desktop-image {
   display: none;
 }
 
@@ -38,22 +38,19 @@ button {
   color: hsl(240, 100%, 5%);
 }
 
-button {
-}
-
 button:hover {
   background-color: black;
   cursor: pointer;
 }
 
 @media all and (min-width: 600px) {
-  .mobile-image{
+  .mobile-image {
     display: none;
   }
 
-  .desktop-image{
+  .desktop-image {
     display: block;
-  }  
+  }
 }
 
 @media all and (min-width: 800px) {
@@ -61,12 +58,12 @@ button:hover {
     width: 100%;
     margin-bottom: 1.5em;
   }
-  
-  .mobile-image{
+
+  .mobile-image {
     display: none;
   }
 
-  .desktop-image{
+  .desktop-image {
     display: block;
   }
 
@@ -79,14 +76,14 @@ button:hover {
     text-shadow: 1px 0px 0px black;
     letter-spacing: 1.2px;
   }
-  
+
   .lead-story-subtitle {
     font-size: 0.95em;
     line-height: 1.8;
     padding: 0;
     margin: 0;
   }
-  
+
   button {
     margin-top: 20%;
     padding: 15px 35px;
